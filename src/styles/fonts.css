@@ -1,0 +1,284 @@
+:root {
+  --font0: "Visby", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Heavy Italic"), local("VisbyCF-HeavyOblique"),
+    url("../assets/fonts/visby/VisbyCF-HeavyOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-HeavyOblique.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby CF Extra";
+  src: local("VisbyCF-ExtraBold"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Heavy"),
+    url("../assets/fonts/visby/VisbyCF-Heavy.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Heavy Italic"), local("VisbyCF-HeavyOblique"),
+    url("../assets/fonts/visby/VisbyCF-HeavyOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-HeavyOblique.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby CF Demi Bold Oblique";
+  src: local("VisbyCF-DemiBoldOblique"),
+    url("../assets/fonts/visby/VisbyCF-DemiBoldOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-DemiBoldOblique.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Light"),
+    url("../assets/fonts/visby/VisbyCF-Light.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Heavy Italic"), local("VisbyCF-ExtraBoldOblique"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBoldOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby CF Demi Bold Oblique";
+  src: local("VisbyCF-DemiBoldOblique"),
+    url("../assets/fonts/visby/VisbyCF-DemiBoldOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-DemiBoldOblique.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Heavy"),
+    url("../assets/fonts/visby/VisbyCF-Heavy.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby CF Extra";
+  src: local("VisbyCF-ExtraBold"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby CF Demi";
+  src: local("VisbyCF-DemiBold"),
+    url("../assets/fonts/visby/VisbyCF-DemiBold.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Heavy Italic"), local("VisbyCF-ExtraBoldOblique"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBoldOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-ExtraBoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Light Italic"), local("VisbyCF-LightOblique"),
+    url("../assets/fonts/visby/VisbyCF-LightOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-LightOblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Light"),
+    url("../assets/fonts/visby/VisbyCF-Light.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Bold Italic"), local("VisbyCF-BoldOblique"),
+    url("../assets/fonts/visby/VisbyCF-BoldOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Medium Italic"), local("VisbyCF-MediumOblique"),
+    url("../assets/fonts/visby/VisbyCF-MediumOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-MediumOblique.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Thin Italic"), local("VisbyCF-ThinOblique"),
+    url("../assets/fonts/visby/VisbyCF-ThinOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-ThinOblique.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Bold"),
+    url("../assets/fonts/visby/VisbyCF-Bold.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Medium Italic"), local("VisbyCF-MediumOblique"),
+    url("../assets/fonts/visby/VisbyCF-MediumOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-MediumOblique.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby CF Demi";
+  src: local("VisbyCF-DemiBold"),
+    url("../assets/fonts/visby/VisbyCF-DemiBold.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Bold Italic"), local("VisbyCF-BoldOblique"),
+    url("../assets/fonts/visby/VisbyCF-BoldOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Light Italic"), local("VisbyCF-LightOblique"),
+    url("../assets/fonts/visby/VisbyCF-LightOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-LightOblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("Visby CF Thin Italic"), local("VisbyCF-ThinOblique"),
+    url("../assets/fonts/visby/VisbyCF-ThinOblique.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-ThinOblique.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Medium"),
+    url("../assets/fonts/visby/VisbyCF-Medium.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Medium"),
+    url("../assets/fonts/visby/VisbyCF-Medium.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Thin"),
+    url("../assets/fonts/visby/VisbyCF-Thin.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Thin"),
+    url("../assets/fonts/visby/VisbyCF-Thin.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: local("VisbyCF-Bold"),
+    url("../assets/fonts/visby/VisbyCF-Bold.woff2") format("woff2"),
+    url("../assets/fonts/visby/VisbyCF-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

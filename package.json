@@ -1,0 +1,66 @@
+{
+  "name": "rebassx",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.40.0",
+    "@kensie/create-context-hook": "^0.0.11",
+    "@styled-icons/material": "^10.34.0",
+    "@zach.codes/use-upload": "^1.0.1",
+    "await-to-js": "^3.0.0",
+    "aws-sdk": "^2.1024.0",
+    "dotenv": "^10.0.0",
+    "filepond": "^4.30.3",
+    "firebase": "^9.3.0",
+    "firebase-admin": "^10.0.0",
+    "formidable": "^2.0.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^5.0.0",
+    "multer": "^1.4.3",
+    "multiparty": "^4.2.2",
+    "nanoid": "^3.1.30",
+    "next": "12.0.3",
+    "objectid": "^3.2.1",
+    "random-item": "^4.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-filepond": "^7.1.1",
+    "react-use-upload": "^1.0.0",
+    "react-wavesurfer3": "^1.0.1",
+    "rooks": "^5.7.3",
+    "store": "^2.0.12",
+    "styled-components": "^5.3.3",
+    "styled-icons": "^10.45.0",
+    "wavesurfer.js": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.3",
+    "babel-preset-next": "^1.4.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.3",
+    "sass": "^1.43.4"
+  },
+  "prettier": {
+    "semi": false,
+    "arrowParens": "always",
+    "printWidth": 95
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      [
+        "babel-plugin-styled-components",
+        {
+          "ssr": true
+        }
+      ]
+    ]
+  }
+}
