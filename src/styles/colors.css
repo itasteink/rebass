@@ -1,7 +1,11 @@
 :root {
   --white: #ffffff;
-  --darkest: #061816;
+  --darkest: rgb(7, 13, 13);
   --lightGray: #f3f6f6;
   --mediumGray: #909090;
   --green: #16d0af;
+
+  --darkestAlpha3: rgba(7, 13, 13, 0.3);
+  --darkestAlpha6: rgba(7, 13, 13, 0.6);
+  --darkestAlpha9: rgba(7, 13, 13, 0.9);
 }

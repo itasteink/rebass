@@ -20,13 +20,17 @@ const isLinkActive = (route, href) => {
 
 const Wrapper = styled(Link)`
   font-family: var(--visbyFont);
-  font-weight: 900;
-  letter-spacing: -1px;
   font-size: 18px;
 
+  font-weight: ${(props) => {
+    return props.isActive ? "900" : "700"
+  }};
+
+  letter-spacing: ${(props) => {
+    return props.isActive ? "-1px" : "0px"
+  }};
+
   color: ${(props) => {
-    return props.isActive
-      ? props.theme.colors.darkest
-      : props.theme.colors.mediumGray
+    return props.isActive ? props.theme.colors.darkest : props.theme.colors.mediumGray
   }};
 `

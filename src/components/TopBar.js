@@ -9,26 +9,36 @@ import { Link } from "./Link"
 import { Logo } from "./Logo"
 import { Button } from "./Button"
 import { Avatar } from "./Avatar"
+import { CreatePackModal } from "./CreatePackModal"
 
 export const TopBar = (props) => {
+  const [isCreatePackModalOpen, setIsCreatePackModalOpen] = useState(false)
+  const showModal = () => setIsCreatePackModalOpen(true)
+
   return (
     <Wrapper>
       <Container>
         <LogoContainer>
           <Logo />
         </LogoContainer>
+
         <NavLinksContainer>
           <NavLink href="/">Home</NavLink>
           <NavLink href="/assets">Assets</NavLink>
           <NavLink href="/tutorials">Tutorials</NavLink>
           <NavLink href="/blog">Blog</NavLink>
         </NavLinksContainer>
+
         <UserContainer>
-          <Chatbubble width={24} height={24} />
+          <Chatbubble width={24} height={24} onClick={showModal} />
           <Notifications width={26} height={26} />
           <Avatar url="https://randomuser.me/api/portraits/women/95.jpg" />
         </UserContainer>
       </Container>
+
+      {isCreatePackModalOpen && (
+        <CreatePackModal onClose={() => setIsCreatePackModalOpen(false)} />
+      )}
     </Wrapper>
   )
 }
@@ -38,7 +48,7 @@ const Wrapper = styled.div`
   justify-content: center;
   height: 64px;
   padding: 0px 24px;
-  background: ${(props) => props.theme.colors.white};
+  background: var(--white);
 `
 
 const Container = styled.div`

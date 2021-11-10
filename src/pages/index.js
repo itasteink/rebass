@@ -6,15 +6,10 @@ import { HomePageSection } from "../components/HomePageSection"
 import { PackPreview } from "../components/PackPreview"
 import { PageWrapper } from "./../components/PageWrapper"
 import { mockData } from "../mockData"
-import { FileUploader } from "../components/FileUploader"
 
 export default function Home(props) {
-  const [files, setFiles] = React.useState([])
-
   return (
-    <Wrapper>
-      <FileUploader onFilesUploaded={setFiles} />
-
+    <PageWrapper>
       <HomePageSection title="Fresh Packs" links={mockData.freshPacksLinks}>
         <ItemGrid>
           {mockData.newPacks.map((pack) => (
@@ -30,13 +25,9 @@ export default function Home(props) {
           ))}
         </ItemGrid>
       </HomePageSection>
-    </Wrapper>
+    </PageWrapper>
   )
 }
-
-const Wrapper = styled(PageWrapper)`
-  margin-top: 24px;
-`
 
 const ItemGrid = styled.div`
   display: flex;

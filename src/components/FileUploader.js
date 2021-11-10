@@ -1,14 +1,11 @@
 import * as React from "react"
 import styled from "styled-components"
-import { userNewPackStore } from "../stores/newPackStore"
 
 export const FileUploader = (props) => {
-  const newPack = userNewPackStore()
-
   const onChange = (event) => {
     const files = Array.from(event.target.files)
     const fileCount = files.length
-    newPack.setAssets(fileCount ? files : [])
+    props.onFiles(fileCount ? files : [])
   }
 
   return (

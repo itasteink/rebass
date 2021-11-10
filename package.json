@@ -10,6 +10,7 @@
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.40.0",
     "@kensie/create-context-hook": "^0.0.11",
+    "@reach/portal": "^0.16.2",
     "@styled-icons/material": "^10.34.0",
     "@zach.codes/use-upload": "^1.0.1",
     "await-to-js": "^3.0.0",
